@@ -14,7 +14,7 @@ main{
 }
  
 .topbar {
-  background-color: #257BBE;
+  background-color: #DCE5EC;
   height: 20px;
   width: 100%;
   position: fixed;
@@ -24,7 +24,7 @@ main{
 }
  
 .navbar {
-  background-color: #121343;
+  background-color: #27354B;
   width: 100%;
   color: white;
   display: flex;
@@ -62,7 +62,7 @@ main{
 }
  
 .footer {
-  background-color: #121343;  
+  background-color: #27354B;  
   /*color: white;*/
   color: #C9DFD3;
   font-size: 13px;  
@@ -144,7 +144,7 @@ th, td {
 }
  
 .nav-links a.active {
-  background-color: #257BBE;
+  background-color: #DCE5EC;
   color: black;
 }
  
@@ -159,7 +159,7 @@ th, td {
   .nav-links {
     display: none;
     flex-direction: column;
-    background-color: #121343;
+    background-color: #27354B;
     position: absolute;
     top: 60px;
     right: 0;
