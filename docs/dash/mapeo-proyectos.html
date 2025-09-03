@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Power BI Responsive</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    iframe {
+      width: 100vw;
+      height: 100vh;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="container"></div>
+ 
+  <script>
+	const urlPC = "https://app.powerbi.com/view?r=eyJrIjoiNzBiNGZlMWQtNTI3OC00MDlmLTg3MjUtYjY1ZDMzMTJhZmM5IiwidCI6IjNlMmVmNDA1LTIwZWEtNGNmYS04ZjM5LTA1ZDkwMjg5NGY3ZSIsImMiOjF9";
+	
+    const url = urlPC;
+ 
+    document.getElementById("container").innerHTML =
+      `<iframe src="${url}" allowfullscreen></iframe>`;
+  </script>
+</body>
+</html>
