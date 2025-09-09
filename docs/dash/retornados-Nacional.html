@@ -11,7 +11,7 @@
 
 	  gtag('config', 'G-Y05KPMC5YH');
 	</script>
-	
+
   <meta charset="UTF-8">
   <title>Power BI Responsive</title>
   <style>
@@ -31,12 +31,9 @@
   <div id="container"></div>
  
   <script>
-	const urlPC = "https://app.powerbi.com/view?r=eyJrIjoiMmQxMmZhODQtNTUwMS00NWQ1LTk3ZDUtYjIyYjBmNDBiNjlkIiwidCI6IjNlMmVmNDA1LTIwZWEtNGNmYS04ZjM5LTA1ZDkwMjg5NGY3ZSIsImMiOjF9";
-	const urlMovil = "https://app.powerbi.com/view?r=eyJrIjoiMzI2N2MzNzktYjA5Mi00MTNmLWE2YTktOGE5Nzc0NjNjZDBhIiwidCI6IjNlMmVmNDA1LTIwZWEtNGNmYS04ZjM5LTA1ZDkwMjg5NGY3ZSIsImMiOjF9";
- 
-    const esMovil = /Mobi|Android|iPhone/i.test(navigator.userAgent);
- 
-    const url = esMovil ? urlMovil : urlPC;
+	const urlPC = "https://app.powerbi.com/view?r=eyJrIjoiOWRlYWExZDEtNDQ0Ny00ZmU4LWJlOTctYTEyNjEyZGU2OWM3IiwidCI6IjNlMmVmNDA1LTIwZWEtNGNmYS04ZjM5LTA1ZDkwMjg5NGY3ZSIsImMiOjF9";
+	
+    const url = urlPC;
  
     document.getElementById("container").innerHTML =
       `<iframe src="${url}" allowfullscreen></iframe>`;
